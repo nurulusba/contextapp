@@ -17,6 +17,7 @@ const { isLightTheme, light, dark } = Themecontext;
 
 const theme = isLightTheme ? light : dark;
 const auth = isAuth ? "Logged In" : "Logged Out"
+console.log(auth);
 
      return(
    <nav style={{ background: theme.ui, color: theme.syntax}}>
