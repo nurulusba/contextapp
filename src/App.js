@@ -4,6 +4,7 @@ import BookList from './components/BookList';
 import ThemeContextProvider from './contexts/ThemeContext';
 import ToggleTheme from './components/ToggleTheme';
 import AuthContextProvider from './contexts/AuthContext';
+import SongList from './components/SognList'; 
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <ToggleTheme />
       </AuthContextProvider>
       </ThemeContextProvider>
+      <SongList />
     </div>
   );
 }
